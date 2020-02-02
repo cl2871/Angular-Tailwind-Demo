@@ -31,6 +31,8 @@
     Flex element that holds the sidebar and messages wrapper (flex direction is row by default).
     Fills available space and prevents any content from overflowing its bounds.
     The overflow-hidden allows the overflow-y-scroll in the scrollable container to work properly.
+
+    https://stackoverflow.com/questions/57671255/keeping-one-column-fixed-while-th-other-scrolls
   -->
   <div class="flex flex-1 overflow-hidden">
 
@@ -57,25 +59,32 @@
       -->
       <div class="flex-1 overflow-y-scroll">
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg px-6 py-4">
+        <!--
+          Message
+
+          Margin auto is needed here to center this element
+
+          https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties/33856609#33856609
+        -->
+        <div class="m-auto max-w-sm rounded overflow-hidden shadow-lg px-6 py-4">
           <p class="text-gray-700 text-base">
             Sugar robusta dark french press frappuccino americano redeye. Foam skinny, froth latte single origin fair trade cup wings at mocha single origin. French press brewed aroma galão et café au lait percolator siphon. Arabica brewed con panna frappuccino acerbic, lungo macchiato irish a robusta caffeine. Mazagran robusta fair trade aftertaste, trifecta, arabica sit barista foam ristretto coffee.
           </p>
         </div>
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg px-6 py-4">
+        <div class="m-auto max-w-sm rounded overflow-hidden shadow-lg px-6 py-4">
           <p class="text-gray-700 text-base">
             Sugar robusta dark french press frappuccino americano redeye. Foam skinny, froth latte single origin fair trade cup wings at mocha single origin. French press brewed aroma galão et café au lait percolator siphon. Arabica brewed con panna frappuccino acerbic, lungo macchiato irish a robusta caffeine. Mazagran robusta fair trade aftertaste, trifecta, arabica sit barista foam ristretto coffee.
           </p>
         </div>
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg px-6 py-4">
+        <div class="m-auto max-w-sm rounded overflow-hidden shadow-lg px-6 py-4">
           <p class="text-gray-700 text-base">
             Sugar robusta dark french press frappuccino americano redeye. Foam skinny, froth latte single origin fair trade cup wings at mocha single origin. French press brewed aroma galão et café au lait percolator siphon. Arabica brewed con panna frappuccino acerbic, lungo macchiato irish a robusta caffeine. Mazagran robusta fair trade aftertaste, trifecta, arabica sit barista foam ristretto coffee.
           </p>
         </div>
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg px-6 py-4">
+        <div class="m-auto max-w-sm rounded overflow-hidden shadow-lg px-6 py-4">
           <p class="text-gray-700 text-base">
             Sugar robusta dark french press frappuccino americano redeye. Foam skinny, froth latte single origin fair trade cup wings at mocha single origin. French press brewed aroma galão et café au lait percolator siphon. Arabica brewed con panna frappuccino acerbic, lungo macchiato irish a robusta caffeine. Mazagran robusta fair trade aftertaste, trifecta, arabica sit barista foam ristretto coffee.
           </p>
